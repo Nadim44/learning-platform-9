@@ -1,0 +1,47 @@
+.topic-details {
+    border: 2px solid forestgreen;
+    margin: 10px;
+    border-radius: 14px;
+}
+
+.topic-details img {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.details {
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    margin: 20px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.details h1 {
+    padding-left: 20px;
+}
+
+.details button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    background-color: blue;
+    color: white;
+    /* border: 0; */
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .topic-details img {
+        width: 350px;
+    }
+}
