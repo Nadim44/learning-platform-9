@@ -6,11 +6,11 @@ import './Home.css'
 
 const Home = () => {
     const topics = useLoaderData()
+    // console.log(topics.data)
     return (
         <div>
             <Header></Header>
-            {/* <h1>loader: {topics.length}</h1> */}
-            <Topics topics={topics}></Topics>
+            <Topics topics={topics.data}></Topics>
         </div>
     );
 };
