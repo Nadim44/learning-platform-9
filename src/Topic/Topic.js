@@ -9,7 +9,6 @@ const Topic = ({ topic }) => {
             <img src={logo} alt=""></img>
             <div className='details'>
                 <h1>{name}</h1>
-                {/* <button>Start Practise</button> */}
                 <Link to={`/home/${id}`}>
                     <button>Start Practise</button>
                 </Link>

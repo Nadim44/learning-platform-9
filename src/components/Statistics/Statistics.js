@@ -1,9 +1,15 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import Name from '../Name/Name';
 
 const Statistics = () => {
+    const topics = useLoaderData()
+    // console.log(topics.data)
     return (
         <div>
-            <h2>This is statistics</h2>
+            {
+                topics.data.map(topic => <Name key={topic.id} topic={topic}></Name>)
+            }
         </div>
     );
 };
