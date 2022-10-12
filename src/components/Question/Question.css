@@ -1,0 +1,10 @@
+.question-container {
+    background-color: burlywood;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.question {
+    display: flex;
+}

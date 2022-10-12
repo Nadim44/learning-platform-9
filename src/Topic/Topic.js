@@ -10,7 +10,9 @@ const Topic = ({ topic }) => {
             <div className='details'>
                 <h1>{name}</h1>
                 {/* <button>Start Practise</button> */}
-                <p><Link to={`/home/${id}`}>start Practise</Link></p>
+                <Link to={`/home/${id}`}>
+                    <button>Start Practise</button>
+                </Link>
             </div>
         </div >
     );

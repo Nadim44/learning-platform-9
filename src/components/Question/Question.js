@@ -1,6 +1,7 @@
 import React from 'react';
 import CorrectAnswer from '../CorrectAnswer/CorrectAnswer';
 import Option from '../Option/Option';
+import './Question.css'
 
 const Question = ({ questionDetails }) => {
     const { question, options, correctAnswer } = questionDetails
@@ -8,14 +9,11 @@ const Question = ({ questionDetails }) => {
     let quizDetails = `${question}`
     let quizQuestion = quizDetails.split('<p>')
 
-    // console.log(myArray)
-    let answer = { correctAnswer }
     return (
-        <div>
+        <div className='question-container'>
             <div>
-                <h5>* {quizQuestion}</h5>
-                {/* <p>{correctAnswer}</p> */}
-                <CorrectAnswer answer={answer}></CorrectAnswer>
+                <h5>Q:- {quizQuestion}</h5>
+                <CorrectAnswer ></CorrectAnswer>
             </div>
 
             {

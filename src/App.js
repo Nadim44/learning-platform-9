@@ -26,18 +26,18 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
+        },
+        {
+          path: '/home/:TopicsId',
+          loader: async ({ params }) => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.TopicsId}`)
+          },
+          element: <TopicsDetails></TopicsDetails>
         }
 
       ]
     },
-    {
-      path: '/home/:TopicsId',
-      loader: async ({ params }) => {
-        // console.log(params.topicsId)
-        return fetch(`https://openapi.programming-hero.com/api/quiz/${params.TopicsId}`)
-      },
-      element: <TopicsDetails></TopicsDetails>
-    }
+
   ])
   return (
     <div className="App">

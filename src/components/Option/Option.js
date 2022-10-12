@@ -1,10 +1,9 @@
 import React from 'react';
+import './Option.css'
 
 const Option = ({ option }) => {
     return (
-        <div>
-            {/* <p>{option}</p> */}
-            {/* <input type="radio" name='aaa' id="" /> */}
+        <div className='options'>
             <input type="radio" value="" name="gender" />{option}
         </div>
     );
