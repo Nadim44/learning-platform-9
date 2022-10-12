@@ -7,6 +7,7 @@ const Topic = ({ topic }) => {
     return (
         <div className='topic-details'>
             <img src={logo} alt=""></img>
+
             <div className='details'>
                 <h1>{name}</h1>
                 <Link to={`/home/${id}`}>

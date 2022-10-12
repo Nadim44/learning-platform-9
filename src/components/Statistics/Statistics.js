@@ -4,7 +4,6 @@ import Name from '../Name/Name';
 
 const Statistics = () => {
     const topics = useLoaderData()
-    // console.log(topics.data)
     return (
         <div>
             {
