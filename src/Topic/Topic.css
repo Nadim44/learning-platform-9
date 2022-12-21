@@ -1,5 +1,5 @@
 .topic-details {
-    border: 2px solid forestgreen;
+    /* border: 2px solid forestgreen; */
     margin: 10px;
     border-radius: 14px;
 }
@@ -10,11 +10,11 @@
 }
 
 .details {
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     display: flex;
     justify-content: space-between;
-    color: blue;
-    margin: 20px;
+    /* color: blue; */
+    margin: 10px;
     background-color: aqua;
     border-radius: 15px;
 }
@@ -27,7 +27,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 0px;
-    background-color: blue;
+    background-color: orangered;
     color: white;
     height: 30px;
     border-radius: 8px;

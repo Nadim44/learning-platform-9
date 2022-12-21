@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     border-radius: 6px;
     background-color: aquamarine;
     padding-left: 20px;
@@ -19,6 +19,7 @@
     padding-left: 25px;
     align-items: center;
     color: blueviolet;
+
     font-size: 20px;
 
 

@@ -2,9 +2,9 @@
 
     display: flex;
     padding: 20px;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     margin-top: 10px;
-    background-color: burlywood;
+    background-color: gainsboro;
     border-radius: 10px;
 
 }
@@ -25,8 +25,8 @@
 
 @media only screen and (max-width: 600px) {
     .header-part {
-        background-color: orange;
-        padding: 0px;
+        background-color: gainsboro;
+        padding: 5px;
         margin: 0;
         border-radius: 8px;
     }

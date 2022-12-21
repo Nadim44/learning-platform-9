@@ -4,13 +4,17 @@ import './Topics.css'
 
 const Topics = ({ topics }) => {
     return (
-        <div className='all-topic'>
-            {
-                topics.map(topic => <Topic
-                    key={topic.id}
-                    topic={topic}></Topic>)
-            }
+        <div className='courses'>
+            <h1 className='all-course'>All Courses</h1>
+            <div className='all-topic'>
+                {
+                    topics.map(topic => <Topic
+                        key={topic.id}
+                        topic={topic}></Topic>)
+                }
+            </div>
         </div>
+
     );
 };
 
